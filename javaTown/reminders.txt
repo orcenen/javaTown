@@ -1,0 +1,10 @@
+ask(String message) {}
+askInt(String var1) {}
+pause(int var1) {}
+scribe(String var1, int var2) {}
+clear() {}
+printAt(int var1, int var2, String var3) {}
+
+"C:\Program Files\Java\jdk-25\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2026.1\lib\idea_rt.jar=62290" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\eight\OneDrive\Desktop\javaTown\out\production\javaTown;C:\Users\eight\OneDrive\Desktop\javaTown\lib\mutils.jar Main
+
+
