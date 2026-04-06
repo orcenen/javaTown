@@ -2,7 +2,6 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Random;
 import java.util.List;
-import java.util.Random;
 import java.util.function.Supplier;
 import MUtils.MUtil;
 
@@ -10,6 +9,7 @@ public class Main {
     // imports
     public static MUtil        u = new MUtil();
     public static Random       r = new Random();
+	public static Events       e = new Events();
 
     // constants
     public static final double usdEurExchange = 0.87;
@@ -40,7 +40,7 @@ public class Main {
         return result.setScale(2, RoundingMode.HALF_UP);
     }
 
-    public static generation() {
+    public static String generation() {
         List<Supplier<String>> methods = List.of(
 	            this::methodA,
                 this::methodB,
